@@ -1,7 +1,6 @@
 const Subscribe = () => {
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(e.target.email.value);
   };
 
   return (
