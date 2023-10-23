@@ -5,7 +5,7 @@ import {
   support,
   truckFast,
   twitter,
-} from "../assets/icons/index.ts";
+} from "../assets/icons";
 import {
   bigShoe1,
   bigShoe2,
@@ -44,9 +44,9 @@ export const shoes = [
 ];
 
 export const statistics = [
-  { value: "1k+", label: "Brands" },
-  { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
+  { value: "2k+", label: "Brands" },
+  { value: "650+", label: "Shops" },
+  { value: "600k+", label: "Customers" },
 ];
 
 export const products = [
