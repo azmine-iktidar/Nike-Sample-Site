@@ -7,8 +7,8 @@ import { statistics } from "../constants/constants";
 const Hero = () => {
   const [shoeUrl, setShoeUrl] = useState<string>(bigShoe1);
   return (
-    <div className="w-full flex xl:flex-row min-h-screen max-container">
-      <section className="pt-8 w-2/4 font-montserrat space-y-8 pl-10 max-lg:space-y-2 items-start justify-center flex flex-col">
+    <div className="w-full flex xl:flex-row min-h-screen max-container max-sm:flex-col">
+      <section className="pt-8 w-2/4 font-montserrat space-y-8 pl-10 max-lg:space-y-2 items-start justify-center flex flex-col max-sm:w-full max-sm:items-center max-sm:py-[100px]">
         <p className="text-xs text-coral-red lg:pt-10">Our Summer Collection</p>
         <h1 className="font-bold text-4xl max-lg:text-2xl bg-white flex-nowrap break-keep">
           The New Definition
@@ -34,12 +34,12 @@ const Hero = () => {
           ))}
         </section>
       </section>
-      <section className="bg-red-200 w-1/2 flex items-center justify-center bg-cover bg-center bg-hero flex-col relative">
+      <section className="bg-red-200 w-1/2 flex items-center justify-center bg-cover bg-center bg-hero flex-col relative max-sm:w-full max-sm:items-center max-sm:h-screen">
         <img
           src={shoeUrl}
           width={400}
           height={500}
-          className="object-contain relative z-10"
+          className="object-contain relative"
         />
         <div className="flex absolute bottom-[-30px] space-x-5">
           <Shoecard shoeUrl={shoeUrl} imgChange={setShoeUrl} />
