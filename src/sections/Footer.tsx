@@ -5,7 +5,7 @@ const footer = () => {
   return (
     <footer className="max-sm:text-center max-sm:flex max-sm:flex-col max-sm:items-center">
       <img src={footerLogo} alt="" width={120} />
-      <p className="w-1/2 py-10">
+      <p className="w-1/2 py-10 max-sm:w-3/4 max-sm:text-sm">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quod
         mollitia minima reiciendis, dolor voluptate
       </p>
