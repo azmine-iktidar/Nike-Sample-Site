@@ -33,7 +33,8 @@ Before you get started, make sure you have the following tools and software inst
 ## Usage
 
 - **Explore the Website:** Visit the live demo to experience the responsive design and user interface.
-  - [Live Demo](https://your-live-demo-url.com](https://65364f6effd20e7cb7ea2909--dazzling-peony-382c75.netlify.app/)
+- [Live Demo](https://65364f6effd20e7cb7ea2909--dazzling-peony-382c75.netlify.app/)
+
 
 - **Review the Source Code:** Study the project's source code to gain insights into the implementation of Tailwind CSS and other web development practices.
 
@@ -53,6 +54,6 @@ We welcome contributions to this project. If you'd like to contribute, please fo
 
 This project is open-source and available under the MIT License. Feel free to use and modify it for your own purposes.
 
-For any questions or assistance related to this project, please don't hesitate to reach out to [Iktidar](https://your-contact-info.com).
+For any questions or assistance related to this project, please don't hesitate to reach out to [Iktidar](https://wa.me/qr/ILZPHY5XD5LYM1).
 
 Happy coding!
