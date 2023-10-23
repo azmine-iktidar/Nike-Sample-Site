@@ -27,7 +27,7 @@ Before you get started, make sure you have the following tools and software inst
 3. **Open the project:**
 
     - **Using a code editor:** Open the project folder in your preferred code editor.
-
+    - install all necessary dependencies.
     - **Using a web browser:** Open `index.html` in your web browser.
 
 ## Usage
