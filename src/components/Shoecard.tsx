@@ -7,7 +7,7 @@ const Shoecard = ({
   shoeUrl: string;
   imgChange: (a: string) => void;
 }) => {
-  const handleClick = (e) => {
+  const handleClick = (e: string) => {
     imgChange(e);
   };
   return (
