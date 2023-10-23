@@ -10,7 +10,6 @@ import SuperQuality from "./sections/SuperQuality";
 const App = () => {
   return (
     <main className="relative">
-      App
       <Navbar />
       <section className="xl:padding-1 wide:padding-r padding-b">Hero</section>
       <section>
