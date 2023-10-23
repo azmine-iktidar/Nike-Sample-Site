@@ -3,9 +3,9 @@ import { shoe8 } from "../assets/images";
 
 const SuperQuality = () => {
   return (
-    <section className="flex w-full justify-between px-10 items-center">
-      <div className="w-1/2 space-y-10">
-        <h1 className="text-4xl font-bold font-montserrat ">
+    <section className="flex w-full justify-between px-10 items-center py-10 max-sm:flex-col max-sm:px-10 ">
+      <div className="w-1/2 space-y-10 max-sm:w-full">
+        <h1 className="text-4xl font-bold font-montserrat max-sm:text-lg max-sm:w-full">
           We Provide the Best Shoes
           <br /> in the Market
         </h1>

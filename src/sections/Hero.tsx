@@ -7,16 +7,16 @@ import { statistics } from "../constants/constants";
 const Hero = () => {
   const [shoeUrl, setShoeUrl] = useState<string>(bigShoe1);
   return (
-    <div className="w-full flex xl:flex-row min-h-screen max-container max-sm:flex-col">
-      <section className="pt-8 w-2/4 font-montserrat space-y-8 pl-10 max-lg:space-y-2 items-start justify-center flex flex-col max-sm:w-full max-sm:items-center max-sm:py-[100px]">
+    <div className="w-full flex xl:flex-row min-h-screen max-container max-sm:flex-col ">
+      <section className=" pt-8 w-2/4 font-montserrat space-y-8 pl-10 max-lg:space-y-2 items-start justify-center flex flex-col max-sm:w-full max-sm:items-center max-sm:py-[100px]">
         <p className="text-xs text-coral-red lg:pt-10">Our Summer Collection</p>
         <h1 className="font-bold text-4xl max-lg:text-2xl bg-white flex-nowrap break-keep">
           The New Definition
         </h1>
-        <h1 className="font-bold text-4xl max-lg:text-2xl">
-          of
-          <span className="text-coral-red inline-block ">{" Nike"}</span>
-        </h1>
+        <p className="font-bold text-4xl max-lg:text-2xl">
+          of&nbsp;
+          <p className="text-coral-red inline-block ">Nike</p>
+        </p>
         <p className="text-xs">
           Discover the new nike shoes for your daily comfort and casual events.
           <br />
@@ -34,7 +34,7 @@ const Hero = () => {
           ))}
         </section>
       </section>
-      <section className="bg-red-200 w-1/2 flex items-center justify-center bg-cover bg-center bg-hero flex-col relative max-sm:w-full max-sm:items-center max-sm:h-screen">
+      <section className="max-lg:pt-32 bg-red-200 w-1/2 flex items-center justify-center bg-cover bg-center bg-hero flex-col relative max-sm:w-full max-sm:items-center max-sm:h-screen">
         <img
           src={shoeUrl}
           width={400}

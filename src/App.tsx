@@ -34,7 +34,7 @@ function App() {
         <section>
           <PopularProducts />
         </section>
-        <section>
+        <section className="py-16">
           <SuperQuality />
         </section>
         <section className="padding-x py-10">
