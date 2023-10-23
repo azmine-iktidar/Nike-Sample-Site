@@ -8,6 +8,7 @@ Before you get started, make sure you have the following tools and software inst
 
 - [Git](https://git-scm.com/)
 - A modern web browser
+- Node installed on your device. [Get from here](https://nodejs.org/en/download/current)
 - Optionally, a code editor like [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Installation
@@ -28,7 +29,14 @@ Before you get started, make sure you have the following tools and software inst
 
     - **Using a code editor:** Open the project folder in your preferred code editor.
     - install all necessary dependencies.
-    - **Using a web browser:** Open `index.html` in your web browser.
+   ```bash
+    npm install @latest
+    ```
+    
+    - **Open Server on a web browser:**
+     ```bash
+    npm run dev
+    ```
 
 ## Usage
 
@@ -50,9 +58,9 @@ We welcome contributions to this project. If you'd like to contribute, please fo
 4. **Commit your Changes** and **push them to your fork.**
 5. **Create a Pull Request,** providing a clear description of your changes.
 
-## License
+## Purpose
 
-This project is open-source and available under the MIT License. Feel free to use and modify it for your own purposes.
+This project is open-source and available for all to view the use of tailwind and understand the best practices of react. Feel free to use and modify it for your own purposes.
 
 For any questions or assistance related to this project, please don't hesitate to reach out to [Iktidar](https://wa.me/qr/ILZPHY5XD5LYM1).
 
